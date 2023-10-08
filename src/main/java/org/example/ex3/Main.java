@@ -18,8 +18,8 @@ public class Main {
         team.add(front);
         team.add(backer);
         for (Developer d: team) {
-            if (d instanceof Backendable) {
-                ((Backendable) d).createBackend();
+            if (d instanceof Frontender) {
+                ((Frontender) d).developGUI();
             }
         }
     }

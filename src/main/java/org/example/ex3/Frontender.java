@@ -12,4 +12,7 @@ public class Frontender extends Developer implements Frontentable{
         codding();
         System.out.println("Frontend complete");
     }
+    public void developGUI() {
+        System.out.println("GUI init");
+    }
 }
